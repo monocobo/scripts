@@ -4,4 +4,5 @@ PermitRootLogin no
 PasswordAuthentication no
 PubkeyAuthentication yes
 EOF
+systemctl daemon-reload
 systemctl restart ssh
